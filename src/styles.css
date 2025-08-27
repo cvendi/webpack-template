@@ -1,3 +1,8 @@
+:root {
+  --dark-bg: #1a1b26;
+  --font-color: #6183bb;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,8 +10,8 @@
 html,
 body {
   font-family: system-ui, sans-serif;
-  background-color: var(--nord3);
-  color: var(--nord9);
+  background-color: var(--dark-bg);
+  color: var(--font-color);
   height: 100%;
   margin: 0;
 }
